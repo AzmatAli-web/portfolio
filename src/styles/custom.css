@@ -1,0 +1,36 @@
+body {
+  background:#0d1117;
+  color:#e6edf3;
+}
+
+.section {
+  padding:100px 0;
+}
+
+.hero-section {
+  height:100vh;
+  background:linear-gradient(135deg,#0d1117,#161b22);
+}
+
+h2 {
+  font-weight:700;
+}
+
+.skill-tags span {
+  display:inline-block;
+  background:#21262d;
+  padding:6px 12px;
+  margin:5px;
+  border-radius:20px;
+}
+
+.card {
+  background:#161b22;
+  border:none;
+  color:#e6edf3;
+}
+
+.project-card:hover,
+.service-card:hover {
+  box-shadow:0 0 20px #0d6efd;
+}
