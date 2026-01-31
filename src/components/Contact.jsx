@@ -105,7 +105,7 @@ const Contact = () => {
               <i className="bi bi-envelope fs-3"></i>
             </div>
             <h5 className="fw-bold">Email</h5>
-            <p className="mb-0">your.email@example.com</p>
+            <p className="mb-0">azmatali082003@gmail.com</p>
           </div>
           
           <div className="col-md-4 text-center mb-4">

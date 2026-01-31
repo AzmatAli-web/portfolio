@@ -8,15 +8,15 @@ const Projects = () => {
       description: 'Full-stack MERN application for student trading platform with user authentication, product listings, and admin dashboard.',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Bootstrap'],
       category: 'MERN Stack',
-      github: '#',
-      live: '#'
+      github: 'https://github.com/AzmatAli-web/web-project',
+      live: 'https://web-project-theta-gray.vercel.app/'
     },
     {
       title: 'Task Manager Pro',
       description: 'Flutter mobile application for task management with local storage, notifications, and dark mode support.',
       technologies: ['Flutter', 'Dart', 'SQLite', 'Provider'],
       category: 'Flutter Mobile',
-      github: '#',
+      github: 'https://github.com/AzmatAli-web/mad-project',
       live: '#'
     },
     {
@@ -24,8 +24,9 @@ const Projects = () => {
       description: 'Admin dashboard for e-commerce management with analytics, product tracking, and user management.',
       technologies: ['React.js', 'Chart.js', 'Node.js', 'MongoDB'],
       category: 'MERN Stack',
-      github: '#',
-      live: '#'
+      github: 'https://github.com/AzmatAli-web/mad-project',
+      live: 'https://drive.google.com/file/d/1-KBVBcWKfcleAoyGeKYbK7oWMjMpphv0/view?usp=drive_link',
+      demoType: "Video Walkthrough"
     }
   ];
 

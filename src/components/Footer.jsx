@@ -13,18 +13,14 @@ const Footer = () => {
           
           <div className="col-md-6">
             <div className="d-flex justify-content-md-end gap-3">
-              <a href="#" className="text-white fs-5">
+              <a href="https://github.com/AzmatAli-web/" className="text-white fs-5">
                 <i className="bi bi-github"></i>
               </a>
-              <a href="#" className="text-white fs-5">
+              <a href="https://www.linkedin.com/in/azmat-ali-8698473a1/" className="text-white fs-5">
                 <i className="bi bi-linkedin"></i>
               </a>
-              <a href="#" className="text-white fs-5">
-                <i className="bi bi-twitter"></i>
-              </a>
-              <a href="#" className="text-white fs-5">
-                <i className="bi bi-facebook"></i>
-              </a>
+               
+               
             </div>
           </div>
         </div>
