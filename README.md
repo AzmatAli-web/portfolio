@@ -1,16 +1,31 @@
-# React + Vite
+# Azmat Ali — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React portfolio inspired by an expressive, character-led creative portfolio reference. Built with React and Vite, with original SVG artwork and CSS interface illustrations.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```sh
+npm ci
+npm run dev
+```
 
-## React Compiler
+## Checks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```sh
+npm run lint
+npm run build
+```
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Cursor-following illustrated character with a clickable expression toggle.
+- Responsive layouts, project category filters, and scroll reveals.
+- Selected GitHub projects with original illustrative project covers (not screenshots).
+- Email links and clipboard copy using the browser Clipboard API.
+- Keyboard focus styles, skip navigation, and reduced-motion support.
+
+## Content
+
+Main content and project links are in `src/App.jsx`. Styles are in `src/App.css` and `src/index.css`. The existing photo is in `public/images/azmat.jpeg`. Google Fonts has local system-font fallbacks.
+
+The contact section opens the visitor’s email client; there is no message-submission backend. The illustrated character is a lightweight SVG, not a 3D model. Unused legacy components remain available in `src/components` for reference and are not imported by the new app.
